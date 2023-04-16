@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/search.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">About</a></li>
+                    <li><a href="search.html">Articles</a></li>
+                    <li><a href="request.html">Request</a></li>
+                    <li><a href="adopt.html">Adopt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Description bar: how to request for therapy cat -->
+    <div class="description-bar">
+      <h1>Latest News</h1>
+      <p>Looking to stay up-to-date on the latest news about therapy animals in your region?<br>Just paw your zip code into our search bar and voila! <br>You'll discover all the therapy animal news and events in your neck of the woods🐾</p>
+    </div>
+    
+    <div class="search-container">
+        <form id="search-form" class="search-form">
+            <label for="zip-code">Enter your zip code:</label>
+            <input type="text" id="zip-code" required>
+            <button type="submit">Search</button>
+        </form>
+        <h1>Loading Latest News 🐾</h1>
+        <div id="results">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+    <script src="../javascript/search.js"></script>
+</body>
+</html>

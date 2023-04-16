@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <title>Request</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/request.css">
+</head>
+<body>
+    <!-- nav bar header: direct to other pages -->
+    <header>
+        <div class="header-container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">About</a></li>
+                    <li><a href="search.html">Articles</a></li>
+                    <li><a href="request.html">Request</a></li>
+                    <li><a href="adopt.html">Adopt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Description bar: how to request for therapy cat -->
+    <div class="description-bar">
+      <h1>Request for Therapy Cat</h1>
+      <p>Looking for a therapy cat to brighten up your day? <br>Discover cats that meet your therapy needs, and take care of your mental health!</p>
+    </div>
+
+    <!-- Search bar: filter the cute cats based on students' choice-->
+    <form id="cat-form">
+        <div class="form-fields">
+            <label for="color">Color:</label>
+            <select id="color">
+                <option value="">Don't care</option>
+                <option>Black</option>
+                <option>Gray</option>
+                <option>White</option>
+                <option>Calico</option>
+                <option>Tabby</option>
+                <option>Orange</option>
+            </select>
+
+            <label for="age">Age:</label>
+            <select id="age">
+                <option value="">Don't care</option>
+                <option>Kitten</option>
+                <option>Junior</option>
+                <option>Prime</option>
+                <option>Mature</option>
+                <option>Senior</option>
+                <option>Geriatric</option>
+            </select>
+        </div>
+        <button type="submit">Filter</button>
+    </form>
+
+
+    <!-- cards container -->
+    <div id="cat-cards" class="content-container"></div>
+    <script src="../javascript/request.js"></script>
+</body>
+</html>
