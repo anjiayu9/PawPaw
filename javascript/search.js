@@ -1,5 +1,5 @@
-const apiKey = "AIzaSyCfTIJgyraAPohYyzkSnPJakFlNEXzD2cE";
-const engineID = "1148ff606ea12418a";
+const apiKey = ""; //api key
+const engineID = ""; //engine ID
 const searchForm = document.getElementById("search-form");
 const resultsDiv = document.getElementById("results");
 
